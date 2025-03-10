@@ -5,69 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos - Tienda Veggie</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/productos.css">
+    <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
     
     <!-- Encabezado -->
-    <header class="bg-light py-3">
+    <header class="py-3">
         <div class="container d-flex justify-content-between align-items-center">
             <div class="logo h3">Tienda Veggie</div>
             <nav>
                 <ul class="list-unstyled d-flex m-0">
                     <li class="ms-3"><a href="index.html" class="text-dark text-decoration-none">Inicio</a></li>
                     <li class="ms-3"><a href="productos.html" class="text-dark text-decoration-none">Productos</a></li>
+                    <li class="ms-3"><a href="carrito.html" class="text-dark text-decoration-none">Carrito</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <!-- Sección Productos -->
-    <section id="productos" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">Nuestros Productos</h2>
-            <div class="row">
-                <!-- Producto 1 -->
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="path/to/imagen1.jpg" class="card-img-top" alt="Producto 1">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Producto 1</h5>
-                            <p class="card-text">$1000</p>
-                            <button class="btn btn-success">Agregar al carrito</button>
+     <!-- Contenido de la Página -->
+    <main class="container py-5">
+        <section id="productos" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Nuestros Productos</h2>
+                <div class="row">
+                    <!-- Producto 1 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="path/to/imagen1.jpg" class="card-img-top" alt="Producto 1">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Producto 1</h5>
+                                <p class="card-text">$1000</p>
+                                <button class="btn btn-success">Agregar al carrito</button>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- Producto 2 -->
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="path/to/imagen2.jpg" class="card-img-top" alt="Producto 2">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Producto 2</h5>
-                            <p class="card-text">$1200</p>
-                            <button class="btn btn-success">Agregar al carrito</button>
+                    <!-- Producto 2 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="path/to/imagen2.jpg" class="card-img-top" alt="Producto 2">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Producto 2</h5>
+                                <p class="card-text">$1200</p>
+                                <button class="btn btn-success">Agregar al carrito</button>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- Producto 3 -->
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="path/to/imagen3.jpg" class="card-img-top" alt="Producto 3">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Producto 3</h5>
-                            <p class="card-text">$900</p>
-                            <button class="btn btn-success">Agregar al carrito</button>
+                    <!-- Producto 3 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="path/to/imagen3.jpg" class="card-img-top" alt="Producto 3">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Producto 3</h5>
+                                <p class="card-text">$900</p>
+                                <button class="btn btn-success">Agregar al carrito</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
+    
 
     <!-- Pie de página -->
-    <footer class="bg-dark text-white text-center py-3">
+    <footer class="text-center py-3">
         <p>&copy; 2025 Tienda Veggie. Todos los derechos reservados.</p>
     </footer>
 

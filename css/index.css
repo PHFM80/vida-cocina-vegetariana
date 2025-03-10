@@ -1,0 +1,27 @@
+/* Reset básico */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+
+/* Cuerpo principal */
+main {
+    height: 80%; /* 80% de la página */
+    padding: 20px;
+    overflow-y: auto; /* Asegura que el contenido se pueda desplazar si es necesario */
+}
+
+/* Sección de productos */
+#productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+#productos h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
